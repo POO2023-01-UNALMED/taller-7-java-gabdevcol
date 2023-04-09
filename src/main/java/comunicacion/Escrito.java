@@ -5,40 +5,24 @@ public abstract class Escrito extends Pictograma{
 	private String titulo;
 	private String autor;
 	private int paginas;
-	public Escrito(String origen, String titulo, String autor, int paginas) {
-		super(origen);
-		this.titulo = titulo;
-		this.autor = autor;
-		this.paginas = paginas;
+	
+	public Escrito(String o, String t, String a, int p) {
+		super(o);
+		titulo = t;
+		autor = a;
+		paginas = p;
 	}
 	
-	public String getTitulo() {
-		return titulo;
-	}
-	public void setTitulo(String titulo) {
-		this.titulo = titulo;
-	}
-	public String getAutor() {
-		return autor;
-	}
-	public void setAutor(String autor) {
-		this.autor = autor;
-	}
-	public int getPaginas() {
-		return paginas;
-	}
-	public void setPaginas(int paginas) {
-		this.paginas = paginas;
+	abstract int palabrasTotales(int p);
+	
+	public void resumen() {	
 	}
 	
-	public String resumen() {
-		String r = this.getOrigen() + "\n";
-		r += this.titulo + "\n";
-		r += this.autor + "\n";
-		r += this.paginas;
-		return  r;
-	}
+	public void setTitulo(String valor) {titulo = valor;}
+	public void setAutor( String valor) {autor = valor;}
+	public void setPaginas( int valor) {paginas = valor;}
 	
-	abstract int palabrasTotales(int palabrasPagina);
-	
+	public String getTitulo() {return titulo;}
+	public String getAutor() {return autor;}
+	public int getPaginas() {return paginas;}
 }
