@@ -18,19 +18,19 @@ public class Tesis extends Escrito{
 		
 	}
 	
-	@Override
+
 	public int palabrasTotales() {
 		// TODO Auto-generated method stub
 		return super.getPaginas()*5;
 	}
 
-	@Override
+
 	public String interpretacion() {
 		// TODO Auto-generated method stub
 		return interpretacion;
 	}
 
-	@Override
+
 	public String toString() {
 		// TODO Auto-generated method stub
 //		String argSeparados = "";

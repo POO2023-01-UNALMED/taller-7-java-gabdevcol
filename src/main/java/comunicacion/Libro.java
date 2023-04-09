@@ -15,19 +15,16 @@ public class Libro extends Escrito{
 		interpretacion = i;
 	}
 	
-	@Override
 	public int palabrasTotales() {
 		// TODO Auto-generated method stub
 		return super.getPaginas()*2;
 	}
 
-	@Override
 	public String interpretacion() {
 		// TODO Auto-generated method stub
 		return interpretacion;
 	}
 
-	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
 //		String origen = super.getOrigen();

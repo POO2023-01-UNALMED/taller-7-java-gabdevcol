@@ -13,19 +13,18 @@ public class Periodico extends Escrito{
 		interpretacion = i;
 	}
 	
-	@Override
 	public int palabrasTotales() {
 		// TODO Auto-generated method stub
 		return super.getPaginas()*10;
 	}
 
-	@Override
+	
 	public String interpretacion() {
 		// TODO Auto-generated method stub
 		return interpretacion;
 	}
 
-	@Override
+	
 	public String toString() {
 		// TODO Auto-generated method stub
 		return super.getOrigen()+"\n"+ super.getTitulo()+"\n"+super.getAutor()+"\n"+super.getPaginas()+"\n"+getFecha()+"\n"+getPrimicia()+"\n"+getInterpretacion();
