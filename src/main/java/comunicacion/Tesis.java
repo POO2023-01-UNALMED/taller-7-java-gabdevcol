@@ -19,9 +19,9 @@ public class Tesis extends Escrito{
 	}
 	
 
-	public int palabrasTotales() {
+	public int palabrasTotales(int p) {
 		// TODO Auto-generated method stub
-		return super.getPaginas()*5;
+		return super.getPaginas()*5*p;
 	}
 
 

@@ -15,9 +15,9 @@ public class Libro extends Escrito{
 		interpretacion = i;
 	}
 	
-	public int palabrasTotales() {
+	public int palabrasTotales(int p) {
 		// TODO Auto-generated method stub
-		return super.getPaginas()*2;
+		return super.getPaginas()*2*p;
 	}
 
 	public String interpretacion() {

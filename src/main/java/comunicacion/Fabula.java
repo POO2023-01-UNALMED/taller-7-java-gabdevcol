@@ -12,9 +12,9 @@ public class Fabula extends Escrito{
 		ensenanza = e;
 	}
 	
-	public int palabrasTotales() {
+	public int palabrasTotales(int p) {
 		// TODO Auto-generated method stub
-		return super.getPaginas()*1;
+		return super.getPaginas()*1*p;
 	}
 
 	

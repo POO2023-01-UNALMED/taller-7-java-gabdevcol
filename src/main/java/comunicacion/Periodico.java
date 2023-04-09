@@ -13,9 +13,9 @@ public class Periodico extends Escrito{
 		interpretacion = i;
 	}
 	
-	public int palabrasTotales() {
+	public int palabrasTotales(int p) {
 		// TODO Auto-generated method stub
-		return super.getPaginas()*10;
+		return super.getPaginas()*10*p;
 	}
 
 	
