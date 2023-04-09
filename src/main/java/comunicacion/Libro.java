@@ -14,10 +14,11 @@ public class Libro extends Escrito{
 		edicion = edic;
 		interpretacion = i;
 	}
-
-	public int palabrasTotales(int parametro) {
+	
+	@Override
+	public int palabrasTotales() {
 		// TODO Auto-generated method stub
-		return super.getPaginas()*parametro*2;
+		return super.getPaginas()*2;
 	}
 
 	@Override
@@ -45,9 +46,5 @@ public class Libro extends Escrito{
 	public String getEdicion() {return edicion;}
 	public String getInterpretacion() {return interpretacion;}
 
-	@Override
-	int palabrasTotales() {
-		// TODO Auto-generated method stub
-		return 0;
 	}
 }

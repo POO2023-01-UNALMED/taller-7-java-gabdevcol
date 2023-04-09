@@ -12,10 +12,11 @@ public class Periodico extends Escrito{
 		primicia = pr;
 		interpretacion = i;
 	}
-
-	public int palabrasTotales(int parametro) {
+	
+	@Override
+	public int palabrasTotales() {
 		// TODO Auto-generated method stub
-		return super.getPaginas()*parametro*10;
+		return super.getPaginas()*10;
 	}
 
 	@Override
@@ -39,10 +40,7 @@ public class Periodico extends Escrito{
 	public String getPrimicia() {return primicia;}
 	public String getInterpretacion() {return interpretacion;}
 
-	@Override
-	int palabrasTotales() {
-		// TODO Auto-generated method stub
-		return 0;
+
 	}
 
 }

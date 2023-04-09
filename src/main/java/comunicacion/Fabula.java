@@ -11,10 +11,10 @@ public class Fabula extends Escrito{
 		interpretacion = i;
 		ensenanza = e;
 	}
-
-	public int palabrasTotales(int parametro) {
+	@Override
+	public int palabrasTotales() {
 		// TODO Auto-generated method stub
-		return super.getPaginas()*parametro*1;
+		return super.getPaginas()*1;
 	}
 
 	@Override
@@ -35,10 +35,6 @@ public class Fabula extends Escrito{
 	public String getEnsenanza() {return ensenanza;}
 	public String getInterpretacion() {return interpretacion;}
 
-	@Override
-	int palabrasTotales() {
-		// TODO Auto-generated method stub
-		return 0;
 	}
 
 }
