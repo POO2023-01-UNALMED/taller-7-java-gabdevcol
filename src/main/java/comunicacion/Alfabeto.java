@@ -15,13 +15,13 @@ public class Alfabeto extends Pictograma{
 		return letras.length;
 	}
 
-	@Override
+	
 	public String interpretacion() {
 		// TODO Auto-generated method stub
 		return interpretacion;
 	}
 	
-	@Override
+	
 	public String toString() {
 		String letrasSeparadas = "";
 		
