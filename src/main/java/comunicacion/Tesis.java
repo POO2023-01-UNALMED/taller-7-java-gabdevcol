@@ -52,5 +52,5 @@ public class Tesis extends Escrito{
 	public String getInterpretacion() {return interpretacion;}
 	public String getReferencias() {return referencias;}
 
-	}
+
 }

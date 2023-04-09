@@ -41,6 +41,6 @@ public class Periodico extends Escrito{
 	public String getInterpretacion() {return interpretacion;}
 
 
-	}
+
 
 }

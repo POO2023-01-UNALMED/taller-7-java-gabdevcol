@@ -46,5 +46,4 @@ public class Libro extends Escrito{
 	public String getEdicion() {return edicion;}
 	public String getInterpretacion() {return interpretacion;}
 
-	}
 }

@@ -35,6 +35,6 @@ public class Fabula extends Escrito{
 	public String getEnsenanza() {return ensenanza;}
 	public String getInterpretacion() {return interpretacion;}
 
-	}
+	
 
 }
