@@ -1,4 +1,4 @@
-package taller7;
+
 
 public abstract class Escrito extends Pictograma{
 	

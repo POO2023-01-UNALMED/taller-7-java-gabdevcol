@@ -1,4 +1,4 @@
-package taller7;
+
 
 public class Periodico extends Escrito{
 	

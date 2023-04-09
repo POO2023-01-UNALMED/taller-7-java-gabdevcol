@@ -1,4 +1,3 @@
-package taller7;
 
 public class Fabula extends Escrito{
 	
