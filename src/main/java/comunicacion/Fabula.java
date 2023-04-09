@@ -23,7 +23,6 @@ public class Fabula extends Escrito{
 		return interpretacion;
 	}
 
-	
 	public String toString() {
 		// TODO Auto-generated method stub
 		return super.getOrigen()+"\n"+ super.getTitulo()+"\n"+super.getAutor()+"\n"+super.getPaginas()+"\n"+getEnsenanza()+"\n"+getInterpretacion();
@@ -34,5 +33,7 @@ public class Fabula extends Escrito{
 	
 	public String getEnsenanza() {return ensenanza;}
 	public String getInterpretacion() {return interpretacion;}
+
+	
 
 }

@@ -1,7 +1,7 @@
 /**
  * 
  */
-
+package comunicacion;
 
 /**
  * @author Gabriel

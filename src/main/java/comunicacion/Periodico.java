@@ -12,19 +12,19 @@ public class Periodico extends Escrito{
 		primicia = pr;
 		interpretacion = i;
 	}
-	
+	@Override
 	public int palabrasTotales(int p) {
 		// TODO Auto-generated method stub
 		return super.getPaginas()*10*p;
 	}
 
-	
+	@Override
 	public String interpretacion() {
 		// TODO Auto-generated method stub
 		return interpretacion;
 	}
 
-	
+	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
 		return super.getOrigen()+"\n"+ super.getTitulo()+"\n"+super.getAutor()+"\n"+super.getPaginas()+"\n"+getFecha()+"\n"+getPrimicia()+"\n"+getInterpretacion();
@@ -38,8 +38,6 @@ public class Periodico extends Escrito{
 	public String getFecha() {return fecha;}
 	public String getPrimicia() {return primicia;}
 	public String getInterpretacion() {return interpretacion;}
-
-
 
 
 }

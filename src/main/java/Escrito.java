@@ -1,4 +1,4 @@
-
+package comunicacion;
 
 public abstract class Escrito extends Pictograma{
 	
@@ -13,7 +13,7 @@ public abstract class Escrito extends Pictograma{
 		paginas = p;
 	}
 	
-	abstract int palabrasTotales();
+	abstract int palabrasTotales(int p);
 	
 	public void resumen() {	
 	}

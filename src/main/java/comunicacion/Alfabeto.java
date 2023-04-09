@@ -11,7 +11,7 @@ public class Alfabeto extends Pictograma{
 		interpretacion = i;	
 	}
 	
-	public int cantidadLetras(int p) {
+	public int cantidadLetras() {
 		return letras.length;
 	}
 
@@ -21,7 +21,7 @@ public class Alfabeto extends Pictograma{
 		return interpretacion;
 	}
 	
-	
+
 	public String toString() {
 		String letrasSeparadas = "";
 		

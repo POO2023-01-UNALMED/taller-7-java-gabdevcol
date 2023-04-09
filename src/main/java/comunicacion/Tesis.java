@@ -17,20 +17,19 @@ public class Tesis extends Escrito{
 		interpretacion = inter;
 		
 	}
-	
-
+	@Override
 	public int palabrasTotales(int p) {
 		// TODO Auto-generated method stub
 		return super.getPaginas()*5*p;
 	}
 
-
+	@Override
 	public String interpretacion() {
 		// TODO Auto-generated method stub
 		return interpretacion;
 	}
 
-
+	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
 //		String argSeparados = "";
@@ -51,6 +50,5 @@ public class Tesis extends Escrito{
 	public String getConclusion() {return conclusion;}
 	public String getInterpretacion() {return interpretacion;}
 	public String getReferencias() {return referencias;}
-
 
 }
