@@ -36,7 +36,7 @@ public class Tesis extends Escrito{
 //		for (int i = 0; i< argumentos.length; i++) {
 //			ar
 //		}
-		return super.getOrigen()+"\n"+ super.getTitulo()+"\n"+super.getAutor()+"\n"+super.getPaginas()+"\n"+getIdea()+"\n"+getArgumentos().length+"\n"+getConclusion()+"\n"+getReferencias()+"\n"+getInterpretacion();
+		return super.getOrigen()+"\n"+ super.getTitulo()+"\n"+super.getAutor()+"\n"+super.getPaginas()+"\n"+getIdea()+"\n"+getArgumentos().length+"\n"+getConclusion()+"\n"+getReferencias();
 	}
 	
 	public void setIdea(String valor) {idea = valor;}

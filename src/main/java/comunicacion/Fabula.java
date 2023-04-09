@@ -25,7 +25,7 @@ public class Fabula extends Escrito{
 
 	public String toString() {
 		// TODO Auto-generated method stub
-		return super.getOrigen()+"\n"+ super.getTitulo()+"\n"+super.getAutor()+"\n"+super.getPaginas()+"\n"+getEnsenanza()+"\n"+getInterpretacion();
+		return super.getOrigen()+"\n"+ super.getTitulo()+"\n"+super.getAutor()+"\n"+super.getPaginas()+"\n"+getEnsenanza();
 	}
 	
 	public void setEnsenanza( String valor) {ensenanza = valor;}

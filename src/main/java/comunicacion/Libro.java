@@ -31,7 +31,7 @@ public class Libro extends Escrito{
 	public String toString() {
 		// TODO Auto-generated method stub
 
-		return super.getOrigen()+"\n"+ super.getTitulo()+"\n"+super.getAutor()+"\n"+super.getPaginas()+"\n"+ getCo_autor()+"\n"+getEditorial()+"\n"+getEdicion()+"\n"+getInterpretacion();
+		return super.getOrigen()+"\n"+ super.getTitulo()+"\n"+super.getAutor()+"\n"+super.getPaginas()+"\n"+ getCo_autor()+"\n"+getEditorial()+"\n"+getEdicion();
 	}
 	
 	public void setCo_autor(String valor) {co_autor = valor;}
